@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PARTICLE COLLIDE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="menuScreen">
+            <h1 class="title">PARTICLE COLLIDE WEBSITE</h1>
+        <div class = "sidemenu">
+            <button class="startBt" onclick="showgame()">Start</button>
+            <button class="settingsBt" onclick="showinstructions()">Setting</button>
+            <button class="updatenewsBt" onclick="showupdatenews()">Update news</button>
+            <button class="exitBt" onclick="Escape()">Exit</button>
+        </div>
+    </div>
+        <div id="gameScreen" style = "display:none;">
+            <h2 class="instruction">Type a letter on your keyboard</h2>
+            <div id="bubbleArea"></div>
+        </div>
+        <script src="motion2.js"></script>
+
+    </body>
+</html>
