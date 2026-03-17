@@ -18,6 +18,7 @@ const elements = {
     Ca:{name:"Calcium",color:"#88ff88",radius:20},
     Zn:{name:"Zinc",color:"#8888ff",radius:20},
     H2:{name:"Hydrogen Gas",color:"#dddddd",radius:22},
+    O2:{name:"Oxygen Gas", color: red,radius:22},
     H2O:{name:"Water",color:"#3399ff",radius:24},
     NaCl:{name:"Salt",color:"#eeeeee",radius:24}
 };
